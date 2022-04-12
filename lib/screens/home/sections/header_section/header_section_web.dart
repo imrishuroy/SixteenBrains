@@ -2,12 +2,12 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 
 import 'package:responsive_builder/responsive_builder.dart';
-import 'package:sixteenbrains/adaptive.dart';
-import 'package:sixteenbrains/screens/home/sections/header_section/widgets.dart';
-import 'package:sixteenbrains/values/values.dart';
-import 'package:sixteenbrains/widgets/buttons/nimbus_button.dart';
-import 'package:sixteenbrains/widgets/content_area.dart';
-import 'package:sixteenbrains/widgets/spaces.dart';
+import '/adaptive.dart';
+import '/screens/home/sections/header_section/widgets.dart';
+import '/values/values.dart';
+import '/widgets/buttons/nimbus_button.dart';
+import '/widgets/content_area.dart';
+import '/widgets/spaces.dart';
 
 const double bodyTextSizeLg = 16.0;
 const double bodyTextSizeSm = 14.0;
@@ -16,6 +16,8 @@ const double socialTextSizeSm = 14.0;
 // const double sidePadding = Sizes.PADDING_16;
 
 class HeaderSectionWeb extends StatefulWidget {
+  const HeaderSectionWeb({Key? key}) : super(key: key);
+
   @override
   _HeaderSectionWebState createState() => _HeaderSectionWebState();
 }
